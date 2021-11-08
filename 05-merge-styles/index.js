@@ -1,4 +1,4 @@
-const { stdin, stdout } = process;
+
 const path = require('path');
 const fs = require('fs');
 const pathStyles = path.join(__dirname, 'styles');

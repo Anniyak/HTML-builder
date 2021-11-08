@@ -1,4 +1,4 @@
-const { stdin, stdout } = process;
+
 const path = require('path');
 const fs = require('fs');
 const pathSecret = path.join(__dirname, 'secret-folder')
@@ -21,7 +21,7 @@ async function readDir() {
                 let dotInd = file.name.lastIndexOf('.');
                 let name = file.name.substring(0, dotInd != -1 ? dotInd : file.name.length);
                 let extention = file.name.substring(dotInd != -1 ? dotInd + 1 : file.name.length);
-                console.log(name + ' - ' + extention + ' - ' + fileSizeInKb + 'Kb');
+                console.log(name + ' - ' + extention + ' - ' + fileSizeInKb + 'Kb (' + fileSizeInBytes + ' bytes)');
 
               });
 

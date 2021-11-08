@@ -1,5 +1,4 @@
 
-const { stdin, stdout } = process;
 const path = require('path');
 const fs = require('fs');
 const pathFiles = path.join(__dirname, 'files');

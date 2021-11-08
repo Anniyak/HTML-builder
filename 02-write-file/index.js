@@ -1,3 +1,5 @@
+//Текстовый файл создается по факту ввода текста
+
 const { stdin, stdout } = process;
 const path = require('path');
 const fs = require('fs');
